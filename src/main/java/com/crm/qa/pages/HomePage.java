@@ -90,7 +90,6 @@ public class HomePage extends TestBase {
 		targetLanguage.sendKeys("Spanish");
 		targetLanguage.sendKeys(Keys.ENTER);
 	}
-
 	public void enteringGermanText() throws InterruptedException {
 		sourceTextField.click();
 		Thread.sleep(2000);
